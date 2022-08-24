@@ -65,10 +65,6 @@ z1=np.array(z1)
 np.savetxt('polymer_scaling'+output+'.dat',z1)        
 import matplotlib.pyplot as plt
 print(z1)
-rijvsij=[]
-#for i in range(natoms):
-#    for j in range(natoms):
-#        rijvsij[]=(z[abs(i-j)],abs(i-j))
 plt.plot((z1),'o')
 plt.savefig('out_polymer_scaling.pdf')
 plt.show()
